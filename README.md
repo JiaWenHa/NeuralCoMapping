@@ -28,6 +28,8 @@ conda activate ./venv
 sh ./build.sh
 pip uninstall gym
 pip install gym==0.12
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
 python -m gibson2.utils.assets_utils --download_assets
 ```
 
